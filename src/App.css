@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius : 4px;
+  box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.3);
+  width: 500px;
+  height: 250px;
+  justify-content: space-around;
+  align-items: center;
+}
